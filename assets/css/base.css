@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+
+:root{
+    --Color-One:#FF589E;
+    --Color_Two:#8261EE;
+    --Color-Text:#1e1e1e;
+    --Font:'Raleway', sans-serif;
+
+}
+html{
+    font-family: var(--Font);
+}
+a:any-link{
+    text-decoration: none;
+    
+}
+.button{
+    padding: 10px;
+    background-color: #ddd;
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0 auto;
+}
+.button-One{
+    background-color: var(--Color-One);
+}
+.button-One:hover{
+    background-color: var(--Color_Two);
+}
+
+.button-two{
+    background-color: var(--Color_Two);
+}
+.button-two:hover{
+    background-color: var(--Color-One);
+}
+
+.box-head{
+    
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.box-head.white{
+   color: #fff;
+}
+.box-head > h2{
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.box-head  > p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
